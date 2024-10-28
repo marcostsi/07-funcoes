@@ -1,6 +1,6 @@
 function addToCopy(array, value) {
     let copia_array = [array];
-    copia_array .push(value);  
+    copia_array.push(value);  
     return copia_array; 
   }
 
