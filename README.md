@@ -43,3 +43,14 @@
   
 **Função de Alteração de Objetos Profundos:**
 - Crie uma função chamada updateNestedProperty que receba um objeto com uma estrutura aninhada e altere uma propriedade dentro do objeto aninhado. Observe se a alteração persiste fora da função.
+
+**Clonagem Profunda para Objetos Aninhados:** 
+- Crie uma função chamada deepCloneUpdate que receba um objeto aninhado e altere uma de suas propriedades após fazer uma cópia profunda. Fora da função, verifique se o objeto original foi alterado.
+
+**Alteração em Arrays Multidimensionais**
+- Crie uma função chamada modifyMatrix que receba uma matriz (array de arrays) e altere um de seus valores internos. Verifique se a matriz original foi alterada fora da função.
+
+# Arrow Functions
+- Escreva uma arrow function chamada add que receba dois números como parâmetros e retorne a soma deles.
+- Crie uma arrow function chamada greet que receba um nome como parâmetro e retorne a mensagem "Hello, [nome]!"
+- Dado um array de números, use filter() e uma arrow function para retornar um novo array contendo apenas os números ímpares.
