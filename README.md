@@ -79,4 +79,16 @@
 
 **Conversão de Módulos CommonJS para ESM** 
 - Comece com um módulo mathCommonJS.js em CommonJS que exporta duas funções (adicionar e subtrair). Converta-o para um módulo ESM mathESM.mjs com os mesmos métodos e use import para testá-lo em um arquivo app.mjs.
-  
+
+# Promise
+**Criando uma Promise Simples:** 
+- Crie uma função verificarNumeroPar(numero) que retorna uma Promise. A promessa deve ser resolvida se o número for par e rejeitada se for ímpar.
+
+**Consumindo uma Promise com .then e .catch** 
+- Use a função verificarNumeroPar() do exercício anterior para verificar se um número é par ou ímpar. Chame a função e exiba o resultado com .then() para o sucesso e .catch() para o erro.
+
+**Encadeamento de Promises**
+- Crie duas funções que retornem promessas: dobrarNumero(numero) (que dobra o número) e incrementarNumero(numero) (que incrementa o número em 1). Encadeie essas duas promessas para dobrar e depois incrementar o número inicial.
+
+**Usando Async/Await com Promises** 
+- Crie uma função assíncrona processarNumero(numero) que usa dobrarNumero() e incrementarNumero() (do exercício 3) para dobrar e, em seguida, incrementar o número usando await.
