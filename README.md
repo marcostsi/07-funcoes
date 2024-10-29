@@ -31,3 +31,14 @@
   
 **Passagem de Parâmetro por Referência - Arrays:**
 - Crie uma função chamada addItem que recebe um array e um valor, e adiciona esse valor ao final do array. Fora da função, imprima o array antes e depois de chamar a função. O array foi alterado fora da função?
+- 
+**Imutabilidade de Tipos Primitivos:**
+- Crie uma função chamada changePrimitive que recebe um número, altera o valor dentro da função e depois retorna o novo valor. Fora da função, veja se o número original foi modificado. O valor original mudou?
+  
+**Cópia de Objetos para Manter Imutabilidade:**
+- Crie uma função chamada updatePersonCopy que receba um objeto person e altere o valor de uma de suas propriedades, mas primeiro faça uma cópia do objeto. Fora da função, verifique se o objeto original foi alterado.
+  
+**Copiando Arrays para Manter Imutabilidade:**
+- Crie uma função chamada addToCopy que receba um array e um valor. A função deve adicionar o valor a uma cópia do array e retornar essa cópia sem modificar o array original. Verifique se o array original foi alterado.
+**Função de Alteração de Objetos Profundos:**
+- Crie uma função chamada updateNestedProperty que receba um objeto com uma estrutura aninhada e altere uma propriedade dentro do objeto aninhado. Observe se a alteração persiste fora da função.
