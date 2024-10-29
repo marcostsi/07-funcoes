@@ -54,3 +54,29 @@
 - Escreva uma arrow function chamada add que receba dois números como parâmetros e retorne a soma deles.
 - Crie uma arrow function chamada greet que receba um nome como parâmetro e retorne a mensagem "Hello, [nome]!"
 - Dado um array de números, use filter() e uma arrow function para retornar um novo array contendo apenas os números ímpares.
+
+# Módulos
+**Criação de Módulo Básico (CommonJS):**
+- Crie um módulo em CommonJS chamado saudacao.js que exporta uma função saudar(nome), que recebe um nome e retorna uma saudação (por exemplo, "Olá, {nome}!"). Em seguida, importe esse módulo em outro arquivo e chame a função.
+  
+**Criação de Módulo Básico (ESM)**
+- Crie um módulo em ESM chamado saudacao.mjs que exporta uma função saudar(nome) como uma export default. Importe o módulo em outro arquivo .mjs e execute a função.
+
+**Exportação e Importação de Vários Itens (CommonJS):** 
+- Crie um módulo CommonJS chamado math.js que exporta duas funções: somar(a, b) e multiplicar(a, b). Importe o módulo em outro arquivo e use ambas as funções.
+
+**Exportação e Importação de Vários Itens (ESM):**
+- Crie um módulo ESM chamado math.mjs que exporta duas funções: somar(a, b) e multiplicar(a, b) usando export nomeado. Em outro arquivo .mjs, importe as duas funções e execute-as.
+
+**Criando e Usando um Módulo de Configuração (CommonJS):** 
+- Crie um módulo config.js em CommonJS que exporte um objeto de configurações com uma chave nomeDoProjeto e um valor (por exemplo, "Meu Projeto"). Importe o módulo em app.js e exiba o valor de nomeDoProjeto.
+
+**Criando um Módulo Utilitário com Várias Funções (ESM)** 
+- Crie um módulo util.mjs que exporta múltiplas funções úteis (somaArray, maiorValor, menorValor). Importe todas as funções no app.mjs usando import * as util.
+
+**Importação Dinâmica com ESM**
+- No app.mjs, use import() para importar dinamicamente um módulo mensagem.mjs que exporta uma função exibirMensagem. A função deve ser importada e chamada quando uma condição (ex.: uma variável carregarMensagem) for true.
+
+**Conversão de Módulos CommonJS para ESM** 
+- Comece com um módulo mathCommonJS.js em CommonJS que exporta duas funções (adicionar e subtrair). Converta-o para um módulo ESM mathESM.mjs com os mesmos métodos e use import para testá-lo em um arquivo app.mjs.
+  
