@@ -40,5 +40,6 @@
   
 **Copiando Arrays para Manter Imutabilidade:**
 - Crie uma função chamada addToCopy que receba um array e um valor. A função deve adicionar o valor a uma cópia do array e retornar essa cópia sem modificar o array original. Verifique se o array original foi alterado.
+  
 **Função de Alteração de Objetos Profundos:**
 - Crie uma função chamada updateNestedProperty que receba um objeto com uma estrutura aninhada e altere uma propriedade dentro do objeto aninhado. Observe se a alteração persiste fora da função.
