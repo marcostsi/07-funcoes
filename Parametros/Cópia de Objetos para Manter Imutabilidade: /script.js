@@ -1,5 +1,5 @@
 function updatePersonCopy(pessoa){
-    let person = {pessoa};
+    let person = {...pessoa};
     pessoa.age += 1; 
     console.log("Dentro da função, pessoa.age é:", pessoa.age); 
     return pessoa.age;
