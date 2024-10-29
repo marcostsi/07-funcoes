@@ -1,5 +1,5 @@
 function saudar(nome, callback){
-    console.log(nome);
+    callback(nome);
 }
 
 // Exemplo de uso:
@@ -8,7 +8,7 @@ saudar("Alice", function(nome) {
   });
 
 function saudacao(nome) {
-    console.log("Olá, " + nome + "!");
+    callback("Olá, " + nome + "!");
 }
   
 saudar("Bob", saudacao);
