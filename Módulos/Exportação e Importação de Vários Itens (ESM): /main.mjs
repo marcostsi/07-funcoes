@@ -1,3 +1,5 @@
+import { somar, multiplicar } from './math.mjs';
+
 const resultadoSoma = somar(2, 3);
 const resultadoMultiplicacao = multiplicar(4, 5);
 
